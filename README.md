@@ -19,7 +19,7 @@ https://data.mendeley.com/datasets/rgb77xm3jf/3
 
 ---
 
-## Dataset Overview 
+## Dataset Overview
 
 ![Overview of the LSS MRI AISSLab Dataset](figures/Picture4.png)
 
@@ -39,16 +39,6 @@ https://data.mendeley.com/datasets/rgb77xm3jf/3
   - Left / Right laterality labels  
   - Four-level severity grading (Normal, Mild, Moderate, Severe)  
   - Pixel-level anatomical segmentation masks  
-
----
-
-## Annotation Format Example (PASCAL VOC)
-
-![XML annotation example](figures/Picture3.png)
-
-**Figure 3.** Example of sagittal foraminal stenosis annotation.  
-The left panel shows bounding-box annotations across multiple lumbar levels.  
-The right panel presents the corresponding **PASCAL VOC XML file**, including lumbar level, laterality (LFS/RFS), severity grade, and bounding-box coordinates.
 
 ---
 
@@ -80,20 +70,6 @@ Pixel-level segmentation masks are provided for the following anatomical structu
 - Background / anterior region  
 
 Segmentation masks were generated using a **human-in-the-loop AI annotation workflow** and validated by expert neurosurgeons to ensure anatomical accuracy and clinical reliability.
-
----
-
-## End-to-End CAD Pipeline for Foraminal Stenosis Analysis
-
-![End-to-end CAD pipeline](figures/Picture1.png)
-
-**Figure 4.** End-to-end computer-aided diagnosis (CAD) pipeline for lumbar foraminal stenosis analysis using sagittal MRI. The workflow consists of:
-
-1. Data acquisition from 3D sagittal lumbar spine DICOM volumes  
-2. Automated slice selection using a 3D CNN (N−1, N, N+1)  
-3. AI-based region-of-interest (ROI) detection for neural foramina (L1–L2 to L5–S1)  
-4. ROI-based stenosis severity classification using a weighted fusion of a DeiT transformer and a custom CNN  
-5. Final level-wise stenosis grading and confidence score output for both left and right sides  
 
 ---
 
