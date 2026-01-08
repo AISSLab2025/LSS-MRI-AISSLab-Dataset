@@ -13,9 +13,9 @@ https://data.mendeley.com/datasets/rgb77xm3jf/3
 
 ![Lumbar foraminal anatomy and grading](figures/Picture2.png)
 
-**Figure 1.** Lumbar neural foramen anatomy and foraminal stenosis grading on sagittal T2-weighted MRI.  
-(a) Anatomical landmarks used for expert annotation: superior pedicle (sp), inferior pedicle (ip), superior vertebral body (sc), inferior vertebral body (ic), intervertebral disc (d), facet joint (j), and neural foramen (f).  
-(b) Representative examples of foraminal stenosis severity grades: **Normal**, **Mild**, **Moderate**, and **Severe**, defined according to the degree of perineural fat compression surrounding the exiting nerve root.
+Lumbar neural foramen anatomy and foraminal stenosis grading on sagittal T2-weighted MRI.  
+Anatomical landmarks include the superior and inferior pedicles, vertebral bodies, intervertebral disc, facet joint, and neural foramen.  
+Severity grades are defined as **Normal**, **Mild**, **Moderate**, and **Severe** based on perineural fat compression.
 
 ---
 
@@ -23,9 +23,8 @@ https://data.mendeley.com/datasets/rgb77xm3jf/3
 
 ![Overview of the LSS MRI AISSLab Dataset](figures/Picture4.png)
 
-**Figure 2.** Overview of the LSS-MRI-AISSLab Dataset. Sagittal lumbar spine DICOM volumes illustrating left, middle, and right sagittal slices used for analysis.  
-(a) Expert-annotated foraminal stenosis detection using bounding boxes for lumbar levels **L1–L2 through L5–S1**, on both **left (LFS)** and **right (RFS)** sides, with severity grades (0: Normal, 1: Mild, 2: Moderate, 3: Severe).  
-(b) Pixel-level multi-class anatomical segmentation on the middle sagittal slice, including vertebral bodies, intervertebral discs (IVDs), sacrum, posterior elements (Posterior A and Posterior B), and background regions.
+Overview of sagittal lumbar spine DICOM volumes showing left, middle, and right sagittal slices.  
+The dataset includes bounding-box annotations for bilateral foraminal stenosis across lumbar levels **L1–L2 to L5–S1**, as well as pixel-level multi-class anatomical segmentation masks.
 
 ---
 
@@ -60,7 +59,7 @@ https://data.mendeley.com/datasets/rgb77xm3jf/3
 
 ### 2. Anatomical Segmentation Masks
 
-Pixel-level segmentation masks are provided for the following anatomical structures:
+Pixel-level segmentation masks are provided for:
 
 - Vertebral bodies  
 - Intervertebral discs (IVDs)  
@@ -69,7 +68,8 @@ Pixel-level segmentation masks are provided for the following anatomical structu
 - Posterior B  
 - Background / anterior region  
 
-Segmentation masks were generated using a **human-in-the-loop AI annotation workflow** and validated by expert neurosurgeons to ensure anatomical accuracy and clinical reliability.
+Masks were generated using a **human-in-the-loop AI annotation workflow** and validated by expert neurosurgeons to ensure clinical reliability.
+
 
 ---
 
