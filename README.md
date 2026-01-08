@@ -19,7 +19,7 @@ https://data.mendeley.com/datasets/rgb77xm3jf/1
 
 ---
 
-## Dataset Overview and Annotation Schema
+## Dataset Overview 
 
 ![Overview of the LSS MRI AISSLab Dataset](figures/Picture4.png)
 
