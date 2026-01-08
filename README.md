@@ -5,7 +5,7 @@
 The dataset is specifically developed to support explainable and clinically meaningful AI research by combining pixel-level anatomical segmentation with multi-level, bilateral foraminal stenosis detection and grading across the lumbar spine.
 
 **Dataset DOI (Mendeley Data):**  
-https://data.mendeley.com/datasets/rgb77xm3jf/1
+https://data.mendeley.com/datasets/rgb77xm3jf/3
 
 ---
 
