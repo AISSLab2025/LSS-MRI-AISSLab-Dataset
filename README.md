@@ -1,4 +1,9 @@
-# LSS-MRI-AISSLab Dataset
+# 🧠 LSS-MRI-AISSLab Dataset
+
+[![Paper](https://img.shields.io/badge/Paper-Scientific%20Data-blue)](https://doi.org/10.1038/s41597-026-07138-x)
+[![Dataset](https://img.shields.io/badge/Data-Mendeley-green)](https://data.mendeley.com/datasets/rgb77xm3jf/4)
+
+**LSS-MRI-AISSLab Dataset** is a large-scale, IRB-approved sagittal lumbar spine MRI dataset...
 
 **LSS-MRI-AISSLab Dataset** is a large-scale, IRB-approved sagittal lumbar spine MRI dataset designed for lumbar foraminal stenosis detection, severity grading, and anatomical segmentation.
 
@@ -7,17 +12,6 @@ The dataset is specifically developed to support explainable and clinically mean
 **Dataset DOI (Mendeley Data):**  
 https://data.mendeley.com/datasets/rgb77xm3jf/4
 
----
-## 📄 Associated Publication
-
-[![DOI](https://img.shields.io/badge/DOI-10.1038/s41597--026--07138--x-blue)](https://doi.org/10.1038/s41597-026-07138-x)
-
-**Medical Spine Sagittal MRI Dataset for Segmentation and Foraminal Stenosis Detection**  
-*Scientific Data (Nature Portfolio), 2026*
-
-
-📖 **Read the paper:**  
-https://doi.org/10.1038/s41597-026-07138-x
 ---
 
 ## Foraminal Anatomy and Severity Grading Standard
