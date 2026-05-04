@@ -97,6 +97,15 @@ Masks were generated using a **human-in-the-loop AI annotation workflow** and va
 
 
 ---
+## 🧠 Human-in-the-Loop Annotation Pipeline
+
+<p align="center">
+  <img src="figures/human_in_loop.png" width="850"/>
+</p>
+
+<p align="center">
+<b>Figure.</b> Human-in-the-loop annotation workflow. Initial segmentation is generated using a deep learning model, followed by refinement through morphological operations and manual corrections using annotation tools. Final masks are validated by expert neurosurgeons to ensure clinical accuracy.
+</p>
 
 ## Citation
 
