@@ -40,6 +40,17 @@ The dataset includes bounding-box annotations for bilateral foraminal stenosis a
   - Pixel-level anatomical segmentation masks  
 
 ---
+## 🧠 CAD Pipeline Overview
+
+![CAD Pipeline](figures/pipeline.png)
+
+**Figure:** Overview of the proposed end-to-end CAD pipeline for lumbar spine MRI analysis. The framework consists of five main stages:  
+(1) Data acquisition from sagittal MRI DICOM volumes,  
+(2) Best slice selection using a 3D CNN-based selector,  
+(3) AI-based ROI detection and extraction,  
+(4) ROI classification using hybrid models (DeiT + CNN) with weighted fusion, and  
+(5) Final prediction output across lumbar levels (L1–L2 to L5–S1).
+
 
 ## 📊 Dataset Distribution by Level
 
