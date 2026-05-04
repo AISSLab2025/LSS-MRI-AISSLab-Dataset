@@ -28,16 +28,30 @@ The dataset includes bounding-box annotations for bilateral foraminal stenosis a
 
 ---
 
-## Dataset Summary
+## 📦 Dataset Summary
 
-- **Number of patients:** 500  
-- **Imaging modality:** Sagittal T2-weighted lumbar spine MRI  
-- **Total slices:** ~8,500 sagittal MRI slices  
-- **Annotations include:**
+- **Patients:** 500  
+- **Modality:** Sagittal T2-weighted lumbar spine MRI  
+- **Total slices:** ~8,500  
+- **Annotations:**
   - 2,979 foraminal stenosis bounding boxes  
   - Left / Right laterality labels  
-  - Four-level severity grading (Normal, Mild, Moderate, Severe)  
+  - 4-class severity grading (Normal, Mild, Moderate, Severe)  
   - Pixel-level anatomical segmentation masks  
+
+---
+
+## 📊 Dataset Distribution by Level
+
+This table shows the distribution of foraminal stenosis across lumbar levels (L1–L2 to L5–S1), including side involvement and severity grades. The dataset is dominated by early-stage cases, with Normal (67.45%) and Mild (17.06%) being most frequent.
+
+| Level | Left Side | Right Side | Both Side | Total | Normal (%) | Mild (%) | Moderate (%) | Severe (%) |
+|------|----------:|-----------:|----------:|------:|------------|----------|---------------|-------------|
+| L1-L2 | 313 | 258 | 193 | 571 | 538 (94.22) | 28 (4.90) | 5 (0.88) | 0 (0.00) |
+| L2-L3 | 363 | 323 | 251 | 686 | 573 (83.53) | 77 (11.23) | 22 (3.21) | 14 (2.04) |
+| L3-L4 | 421 | 374 | 288 | 795 | 475 (59.75) | 163 (20.50) | 95 (11.95) | 62 (7.80) |
+| L4-L5 | 334 | 315 | 207 | 649 | 253 (38.98) | 172 (26.50) | 113 (17.41) | 111 (17.10) |
+| L5-S1 | 152 | 126 | 64 | 278 | 170 (61.15) | 68 (24.46) | 19 (6.83) | 21 (7.56) |
 
 ---
 
