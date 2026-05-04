@@ -8,6 +8,20 @@ The dataset is specifically developed to support explainable and clinically mean
 https://data.mendeley.com/datasets/rgb77xm3jf/4
 
 ---
+## 📄 Associated Publication
+
+[![DOI](https://img.shields.io/badge/DOI-10.1038/s41597--026--07138--x-blue)](https://doi.org/10.1038/s41597-026-07138-x)
+
+**Medical Spine Sagittal MRI Dataset for Segmentation and Foraminal Stenosis Detection**  
+*Scientific Data (Nature Portfolio), 2026*
+
+- 📅 Received: 10 Dec 2025  
+- ✅ Accepted: 26 Mar 2026  
+- 🚀 Published: 09 Apr 2026  
+
+📖 **Read the paper:**  
+https://doi.org/10.1038/s41597-026-07138-x
+---
 
 ## Foraminal Anatomy and Severity Grading Standard
 
