@@ -78,6 +78,16 @@ Masks were generated using a **human-in-the-loop AI annotation workflow** and va
 If you use this dataset or the associated code, please cite:
 
 ```bibtex
+@article{abdulmahmod2026medical,
+  title   = {Medical Spine Sagittal MRI Dataset for Segmentation and Foraminal Stenosis Detection},
+  author  = {Abdulmahmod, Osamah F. and Al-Antari, Mugahed A. and Kwon, Hyunwook and Habib, Afnan and Raza, Mukhlis and Kaplan, Metin and Ertu{\u{g}}rul, Bilal and Ak{\c{c}}in, {\.I}smail and B{\"u}t{\"u}n, Ertan and Gu, Yeong Hyeon},
+  journal = {Scientific Data},
+  year    = {2026},
+  doi     = {10.1038/s41597-026-07138-x},
+  url     = {https://doi.org/10.1038/s41597-026-07138-x},
+  publisher = {Nature Publishing Group}
+}
+
 @inproceedings{Salem2025AutoSpineAI,
   title     = {AutoSpineAI: Lightweight Multimodal CAD Framework for Lumbar Spine MRI Assessments},
   author    = {Salem, Saied and Habib, Afnan and Raza, Mukhlis and Al-Huda, Zaid and
