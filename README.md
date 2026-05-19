@@ -133,7 +133,8 @@ If you use this dataset or the associated code, please cite:
                Gu, Yeong Hyeon and Al-Antari, Mugahed A.},
   booktitle = {Proceedings of the IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)},
   year      = {2025},
-  organization = {IEEE}
+  organization = {IEEE},
+  url={https://doi.org/10.1109/BHI67747.2025.11269503}
 }
 
 @article{AlAntari2025AISystematicReview,
@@ -146,5 +147,8 @@ If you use this dataset or the associated code, please cite:
   number  = {8},
   pages   = {221},
   year    = {2025},
-  publisher = {Springer}
+  publisher={Springer},
+  doi={10.1007/s10462-025-11185-y},
+  url={https://doi.org/10.1007/s10462-025-11185-y}
 }
+```
